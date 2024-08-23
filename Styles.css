@@ -1,0 +1,108 @@
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	color: #000;
+	padding-top: 50px;
+}
+section {
+	max-width: 900px;
+	background: #a0f24e;
+	border: 2px solid #ecedeb;
+	margin: 0 auto;
+}
+table {
+	border-collapse: collapse;
+	border: 0;
+	width: 100%;
+	position: relative;
+	margin-top: 1rem;
+}
+h1 {
+	text-align: left;
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 15px 20px;
+	padding: 10px 0;
+}
+#years {
+	display: flex;
+	justify-content: flex-end;
+	gap: 40px;
+	margin: 0 20px;
+	
+}
+div#years span {
+	width: 10rem;
+	font-weight: bold;
+	text-align: right;
+}
+caption	{
+	font-size: 1em;
+	position: absolute;
+	font-weight: bold;
+	margin: -1.27rem 20px 10px 20px;
+}
+th span[class] {
+	width: 100vw;
+	min-width: 8rem;
+	max-width: 8rem;
+	margin: 0 20px 0 5px;
+}
+tbody td {
+	width: 100vw;
+	min-width: 10rem;
+	max-width: 10rem;
+}
+tbody th {
+	width: calc(100% - 10rem);
+}
+tr.data td {
+	font-weight: bold;
+	text-align: right;
+	padding: 0 20px;
+}
+tr.account	{
+	text-align: right;
+	margin: 0 20px;
+}
+td .not-minus {
+	text-align: right;
+}
+th.account-type {
+	text-align: left;
+	padding: 10px 25px;
+	font-weight: normal;
+ }
+ tr.not-minus {
+ 	color: #000;
+ }
+ tr.minus {
+ 	color: #b80806;
+ 	text-align: right;
+ }
+ tr.minus th {
+ 	color: #000;
+ }
+ tr.total th {
+ 	text-align: left;
+ 	padding: 0 25px 10px 25px;
+ }
+ tr.total td {
+ 	font-weight: bold;
+ 	text-align: right;
+ 	padding: 0 20px;
+ }
+ tr.balance td {
+ 	font-weight: bold;
+ 	text-align: right;
+ 	padding: 0 20px 50px 20px;
+ 	vertical-align: top;
+ }
+ tr.balance th {
+ 	text-align: left;
+ 	padding: 0px 25px 50px 25px;
+ 
+ }
+ 
